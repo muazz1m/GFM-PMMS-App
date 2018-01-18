@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kuhosu.mobilepreventativemaintenance.AssetDetailsActivity">
+
+    <TextView
+        android:id="@+id/lAssetBroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asset Group"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/dAssetGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electrical"
+        android:textAlignment="viewEnd"
+        android:gravity="end"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/lAssetCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asset Category"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <TextView
+        android:id="@+id/dAssetCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="viewEnd"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <TextView
+        android:id="@+id/lAssetType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asset Type"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:id="@+id/dAssetCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="viewEnd"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:id="@+id/lAssetNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asset Number"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <TextView
+        android:id="@+id/dAssetNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dAssetNo"
+        android:textAlignment="viewEnd"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <TextView
+        android:id="@+id/lModelNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model Number"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:id="@+id/dmodelNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="viewEnd"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:id="@+id/lCapacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capacity"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteY="272dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/dcapacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="viewEnd"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <TextView
+        android:id="@+id/lLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteY="330dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/dLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="viewEnd"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="330dp" />
+</android.support.constraint.ConstraintLayout>

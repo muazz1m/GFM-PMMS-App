@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kuhosu.mobilepreventativemaintenance.SafetyPrecautionActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="The following guideline should be followed:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="4. Make sure all gates, door or other devices Leading to High Voltage Zone shall be kept locked after used."
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="3. Members of a working maybe be admitted to High Voltage Zone by an authorized person."
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="2. Do not wear loose clothing or jewelry while working around equipment."
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="1. Make sure proper Personal Protective Equipment is intact."
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+</android.support.constraint.ConstraintLayout>
