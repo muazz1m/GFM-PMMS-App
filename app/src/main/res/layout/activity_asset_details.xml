@@ -10,126 +10,150 @@
         android:id="@+id/lAssetBroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
         android:text="Asset Group"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/dAssetGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="32dp"
+        android:gravity="end"
         android:text="Electrical"
         android:textAlignment="viewEnd"
-        android:gravity="end"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/lAssetCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="Asset Category"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="64dp" />
+        app:layout_constraintStart_toStartOf="@+id/lAssetBroup"
+        app:layout_constraintTop_toBottomOf="@+id/lAssetBroup" />
 
     <TextView
         android:id="@+id/dAssetCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="24dp"
         android:text="TextView"
         android:textAlignment="viewEnd"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="64dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dAssetGroup" />
 
     <TextView
         android:id="@+id/lAssetType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="Asset Type"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="112dp" />
+        app:layout_constraintStart_toStartOf="@+id/lAssetCategory"
+        app:layout_constraintTop_toBottomOf="@+id/lAssetCategory" />
 
     <TextView
         android:id="@+id/dAssetCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="85dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="85dp"
         android:text="TextView"
         android:textAlignment="viewEnd"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="112dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/lModelNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dAssetGroup" />
 
     <TextView
         android:id="@+id/lAssetNo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="Asset Number"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="167dp" />
+        app:layout_constraintStart_toStartOf="@+id/lAssetType"
+        app:layout_constraintTop_toBottomOf="@+id/lAssetType" />
 
     <TextView
         android:id="@+id/dAssetNo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="24dp"
         android:text="dAssetNo"
         android:textAlignment="viewEnd"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="167dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dAssetCategory" />
 
     <TextView
         android:id="@+id/lModelNo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="Model Number"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="218dp" />
+        app:layout_constraintStart_toStartOf="@+id/lAssetNo"
+        app:layout_constraintTop_toBottomOf="@+id/lAssetNo" />
 
     <TextView
         android:id="@+id/dmodelNo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="24dp"
         android:text="TextView"
         android:textAlignment="viewEnd"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="218dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dAssetNo" />
 
     <TextView
         android:id="@+id/lCapacity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="Capacity"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
-        tools:layout_editor_absoluteY="272dp"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintStart_toStartOf="@+id/lModelNo"
+        app:layout_constraintTop_toBottomOf="@+id/lModelNo" />
 
     <TextView
         android:id="@+id/dcapacity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="24dp"
         android:text="TextView"
         android:textAlignment="viewEnd"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="272dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dmodelNo" />
 
     <TextView
         android:id="@+id/lLocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="Location"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
-        tools:layout_editor_absoluteY="330dp"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintStart_toStartOf="@+id/lCapacity"
+        app:layout_constraintTop_toBottomOf="@+id/lCapacity" />
 
     <TextView
         android:id="@+id/dLocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="24dp"
         android:text="TextView"
         android:textAlignment="viewEnd"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="330dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dcapacity" />
 </android.support.constraint.ConstraintLayout>

@@ -4,46 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/card_booking"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:padding="16dp"
+    app:contentPadding="8dp">
 
 
     <TextView
         android:id="@+id/text_workorder_no"
-        tools:text="PMBSI17039539"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:duplicateParentState="true"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:duplicateParentState="true" />
+        tools:text="PMBSI17039539" />
 
     <TextView
         android:id="@+id/text_task_no"
-        tools:text="E0009"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="30dp"
         android:duplicateParentState="true"
-        android:layout_marginTop="30dp"/>
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:text="E0009" />
 
     <TextView
         android:id="@+id/text_due_date"
-        tools:text="Due : Mon, 10/01/2017"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="50dp"
         android:duplicateParentState="true"
-        android:layout_marginTop="50dp"/>
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:text="Due : Mon, 10/01/2017" />
 
     <TextView
-        android:padding="7dp"
         android:id="@+id/text_bookingstatus"
-        tools:text="Completed"
-        android:textColor="@color/white"
-        android:background="@drawable/box_status_item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_gravity="end|top"
+        android:background="@drawable/box_status_item"
         android:duplicateParentState="true"
-        android:layout_gravity="end|top"/>
+        android:padding="7dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
+        tools:text="Completed" />
 
 
 </android.support.v7.widget.CardView>
